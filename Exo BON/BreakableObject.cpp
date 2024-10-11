@@ -5,9 +5,8 @@ BreakableObject::BreakableObject() {};
 
 void BreakableObject::SetPosBreakableObject(float _x, float _y)
 {
-
 	Vector2 temp(_x, _y);
-	this->SetPosition(temp);
+	this->Entity::SetPosition(temp);
 }
 
 void BreakableObject::SetHp(float _maxHp, float _currentHp)

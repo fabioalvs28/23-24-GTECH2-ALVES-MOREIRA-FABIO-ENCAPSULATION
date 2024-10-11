@@ -1,0 +1,5 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\falvesmoreira\source\repos\Exo BON\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  BreakableObject.cpp
+  Exo BON.vcxproj -> C:\Users\falvesmoreira\source\repos\Exo BON\x64\Debug\Exo BON.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.

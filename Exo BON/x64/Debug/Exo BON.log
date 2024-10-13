@@ -1,5 +1,33 @@
-﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\falvesmoreira\source\repos\Exo BON\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
-  BreakableObject.cpp
-  Exo BON.vcxproj -> C:\Users\falvesmoreira\source\repos\Exo BON\x64\Debug\Exo BON.exe
-  'pwsh.exe' n'est pas reconnu en tant que commande interne
-  ou externe, un programme exécutable ou un fichier de commandes.
+﻿  World.cpp
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.h(12,22): warning C4584: 'World' : la classe de base 'Entity' est déjà une classe de base de 'StaticObject'
+  (compiler le fichier source 'World.cpp')
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\Entity.h(8,7):
+  voir la déclaration de 'Entity'
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\StaticObject.h(8,7):
+  voir la déclaration de 'StaticObject'
+  
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.h(12,22): warning C4584: 'World' : la classe de base 'Entity' est déjà une classe de base de 'BreakableObject'
+  (compiler le fichier source 'World.cpp')
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\Entity.h(8,7):
+  voir la déclaration de 'Entity'
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\BreakableObject.h(9,7):
+  voir la déclaration de 'BreakableObject'
+  
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.h(12,22): warning C4584: 'World' : la classe de base 'Entity' est déjà une classe de base de 'Mob'
+  (compiler le fichier source 'World.cpp')
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\Entity.h(8,7):
+  voir la déclaration de 'Entity'
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\Mob.h(11,7):
+  voir la déclaration de 'Mob'
+  
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.h(12,22): warning C4584: 'World' : la classe de base 'Entity' est déjà une classe de base de 'Player'
+  (compiler le fichier source 'World.cpp')
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\Entity.h(8,7):
+  voir la déclaration de 'Entity'
+  C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\Player.h(12,7):
+  voir la déclaration de 'Player'
+  
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.cpp(18,48): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.cpp(20,26): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\Exo BON\World.cpp(20,21): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Exo BON.vcxproj -> C:\Users\m0rei\Documents\GitHub\23-24-GTECH2-ALVES-MOREIRA-FABIO-ENCAPSULATION\x64\Debug\Exo BON.exe

@@ -11,7 +11,7 @@ private:
 
 public:
 	Alive();
-	Alive(float _maxHp, float _currentHp);
+	Alive(float _maxHp);
 
 	virtual float GetMaxHp() const;
 	virtual float GetCurrentHp() const;

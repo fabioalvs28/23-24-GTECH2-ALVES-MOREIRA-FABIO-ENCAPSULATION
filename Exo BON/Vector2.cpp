@@ -34,6 +34,11 @@ Vector2 Vector2::operator+(const Vector2& other)
     return Vector2(this->x + other.GetX(), this->y + other.GetY());
 }
 
+Vector2 Vector2::operator-(const Vector2& other)
+{
+    return Vector2(this->x - other.GetX(), this->y - other.GetY());
+}
+
 void Vector2::Print()
 {
     std::cout << this->x << ", " << this->y << std::endl;

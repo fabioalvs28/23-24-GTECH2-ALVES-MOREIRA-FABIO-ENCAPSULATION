@@ -2,7 +2,7 @@
 #include "Alive.h"
 
 Alive::Alive() : currentHp(0), maxHp(0) {};
-Alive::Alive(float _maxHp, float _currentHp) : maxHp(_maxHp), currentHp(_currentHp) {};
+Alive::Alive(float _maxHp) : maxHp(_maxHp), currentHp(_maxHp) {};
 
 float Alive::GetMaxHp() const
 {

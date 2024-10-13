@@ -3,16 +3,11 @@
 
 BreakableObject::BreakableObject() {};
 
-void BreakableObject::SetPosBreakableObject(float _x, float _y)
+BreakableObject::BreakableObject(float _x, float _y, float _maxHp) : Entity(Vector2(_x, _y)) , Alive(_maxHp)
 {
-	Vector2 temp(_x, _y);
-	this->Entity::SetPosition(temp);
-}
+	std::cout << "Breakable Object just created at x = " << _x << " and y = " << _y << " with " << _maxHp << " HP " << std::endl;;
 
-void BreakableObject::SetHp(float _maxHp, float _currentHp)
-{
-	this->Alive::Alive(_maxHp, _currentHp);
-}
+};
 
 void BreakableObject::TakeDamage(float _damage) 
 {

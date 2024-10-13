@@ -5,11 +5,11 @@
 
 #include "Entity.h"
 
-class StaticObject : Entity 
+class StaticObject : public Entity 
 {
 public:
 	StaticObject();
-	virtual void SetPosStaticObject(float _x, float _y);
+	StaticObject(float _x, float _y);
 };
 #endif // !STATICOBJECT_H__
 

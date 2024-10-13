@@ -11,8 +11,7 @@ class BreakableObject : public Entity, public Alive
 {
 public:
 	BreakableObject();
-	virtual void SetPosBreakableObject(float _x, float _y);
-	virtual void SetHp(float _maxHp, float _currentHp);
+	BreakableObject(float _x, float _y, float _maxHp);
 	void TakeDamage(float _damage) override;
 };
 
